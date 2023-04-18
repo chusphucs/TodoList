@@ -1,0 +1,52 @@
+$primary-color: #2196f3;
+$secondary-color: #9e9e9e;
+$font-family: sans-serif;
+
+.title {
+font-size: 2rem;
+color: $primary-color;
+}
+
+.tasks {
+margin-top: 1.5rem;
+display: flex;
+flex-direction: column;
+}
+
+.task {
+display: flex;
+align-items: center;
+margin-bottom: 0.5rem;
+font-size: 2rem;
+color: $secondary-color;
+}
+
+.taskCheckBox {
+margin-right: 1rem;
+}
+
+.taskName {
+flex-grow: 1;
+}
+
+.taskNameDone {
+text-decoration: line-through;
+}
+
+.taskAction {
+margin-left: auto;
+}
+
+.taskBtn {
+font-size: 2rem;
+background-color: transparent;
+border: none;
+color: $primary-color;
+margin-left: 1rem;
+cursor: pointer;
+transition: color 0.2s;
+
+&:hover {
+color: darken($primary-color, 10%);
+}
+}

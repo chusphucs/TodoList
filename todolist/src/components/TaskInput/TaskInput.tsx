@@ -34,7 +34,7 @@ function TaskInput(props: TaskInputProps) {
 
   return (
     <div>
-      <h1 className={styles.title}>To do list typescript</h1>
+      <h1 className={styles.title}>TODO </h1>
       <form className={styles.form} onSubmit={handleSubmit}>
         <input
           type='text'

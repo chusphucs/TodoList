@@ -12,7 +12,7 @@ function TaskList(props: TaskListProps) {
   const { doneTaskList, todos, handleDoneTodo, startEditTodo, deleteTodo } = props
   return (
     <div>
-      <h2 className={styles.title}>{doneTaskList ? 'Hoan thanh' : 'Chua hoan thanh'}</h2>
+      <h2 className={styles.title}>{doneTaskList ? 'Hoàn thành' : 'Chưa hoàn thành'}</h2>
       <div className={styles.tasks}>
         {todos.map((todo) => (
           <div className={styles.task} key={todo.id}>

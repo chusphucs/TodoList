@@ -38,7 +38,7 @@ function TaskInput(props: TaskInputProps) {
       <form className={styles.form} onSubmit={handleSubmit}>
         <input
           type='text'
-          placeholder='caption goes here'
+          placeholder='task info'
           value={currentTodo ? currentTodo.name : name}
           onChange={onChangeInput}
         />
